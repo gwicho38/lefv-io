@@ -1,24 +1,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/lucky-lore/create-nextjs-ts-redux-app">
-  <!-- <a href="https://www.flaticon.com/free-icons/create" title="create icons">Create icons created by Freepik - Flaticon</a> -->
-    <img src="./favicon.ico" alt="Logo" width="80" height="80">
+  <a href="https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate">
+    <img src="./public/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
-  <h1 align="center">An automatic generator for the NextJS, Typescript, SASS, Redux Toolkit, Jest, React Testing Library, Prettier Boilerplate</h1>
+  <h1 align="center">NextJS, Typescript, SASS, Redux Toolkit, Jest, React Testing Library, Prettier Boilerplate</h1>
 
   <p align="center">
-     Generate the ultimate NextJS template in seconds
+     The Ultimate NextJS Template
     <br />
-    <a href="https://github.com/lucky-lore/create-nextjs-ts-redux-app#readme"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://www.npmjs.com/package/create-nextjs-ts-redux-app">View on npm</a>
+    <a href="https://www.npmjs.com/package/nextjs-ts-boilerplate">View on npm</a>
     ·
-    <a href="https://github.com/lucky-lore/create-nextjs-ts-redux-app/issues">Report Bug</a>
+    <a href="https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate/issues">Report Bug</a>
     ·
-    <a href="https://github.com/lucky-lore/create-nextjs-ts-redux-app/issues">Request Feature</a>
+    <a href="https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate/issues">Request Feature</a>
   </p>
 </p>
 
@@ -46,23 +45,29 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started-with-create-nextjs-ts-redux-app">Getting Started With create-nextjs-ts-redux-app</a>
+      <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#installation-and-setup">Installation and Setup</a></li>
+        <li>
+            <a href="#getting-started">Getting Started</a>
+            <ul>
+                <li><a href="#prerequisites">Prerequisites</a></li>
+            </ul>
+        </li>
       </ul>
     </li>
     <li>
-        <a href="#getting-started-with-nextjs-boilerplate">Getting Started With NextJS Boilerplate</a>
+        <a href="#usage">Usage</a>
         <ul>
-            <li><a href="#prerequisites">Prerequisites</a></li>
-            <li>
-                <a href="#usage">Usage</a>
-                <ul>
-                    <li><a href="#scripts">Scripts</a></li>
-                    <li><a href="#git-hooks---husky">Git Hooks - Husky</a></li>
-                </ul>
-            </li>
+            <li><a href="#scripts">Scripts</a></li>
         </ul>
+    </li>
+    <li>
+      <a href="#project-status">Project Status</a>
+      <ul>
+        <li><a href="#current">Current</a></li>
+        <li><a href="#next-steps">Next Steps</a></li>
+      </ul>
     </li>
     <li><a href="#support-me">Support Me</a></li>
     <li><a href="#roadmap">Deployment</a></li>
@@ -80,13 +85,13 @@
 
 As a professional developer that loves doing side projects in my free time, it just puts me off to think about having to spend a day or two just configuring my project rather than coding. Therefore I created the ultimate boilerplate project and with utmost pleasure and excitement I share it with all of you so that you can get started with coding right away!
 
-This is a generator for the starter template (boilerplate) project that uses NextJS, Typescript, SASS, Redux Toolkit,  RTL (React Testing Library), Jest, ESlint, Prettier and Git Hooks (Husky). It is everything that you need to get started and has the most useful react scripts already added. Check <a href="#scripts">Scripts</a> for more information.
+This is a starter template (boilerplate) project that uses NextJS, Typescript, SASS, Redux Toolkit, RTL (React Testing Library), Jest, ESlint, Prettier and Git Hooks (Husky). It is everything that you need to get started and has the most useful react scripts already added. Check <a href="#scripts">Scripts</a> for more information.
 
-The boilerplate has the best linter rules to get started with, as well as the `eslint-plugin-jsx-a11y` accessibility plugin to write the best code possible. These are initial configurations that you are not bound to and can be customized to your liking. You can easily make your own configurations, change some of the used frameworks (you could swap SASS for MUI or some other styling framework that you love!).
+It has the best linter rules to get started with, as well as the `eslint-plugin-jsx-a11y` accessibility plugin to write the best code possible. These are initial configurations that you are not bound to and can be customized to your liking. You can easily make your own configurations, change some of the used frameworks (you could swap SASS for MUI or some other styling framework that you love!).
 
 ### Built With
 
-This section lists any major frameworks and tools that I used to build the boilerplate.
+This section lists any major frameworks and tools that I used to build this boilerplate.
 
 -   [React](https://reactjs.org/)
 -   [NextJS](https://nextjs.org/)
@@ -100,36 +105,15 @@ This section lists any major frameworks and tools that I used to build the boile
 
 <!-- GETTING STARTED -->
 
-## Getting Started With create-nextjs-ts-redux-app
+## Getting Started
 
 ### Installation and Setup
-
-Simply run:
-```
-npm i -g create-nextjs-ts-redux-app
-```
-Go into the directory you wish to install your boilerplate.
-
-```
-create-nextjs-ts-redux-app {name of your project}
-```
-
-E.g: 
-
-```
-create-nextjs-ts-redux-app my-awesome-app
-```
-
-Alternatively you can run:
-```
-npx create-nextjs-ts-redux-app my-awesome-app
-```
 
 Alternatively, clone down the [repository](https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate).
 
 You will need `node` and `npm` installed globally on your machine.
 
-Installation of the boilerplate:
+Installation:
 
 `npm install`
 
@@ -141,9 +125,9 @@ To Visit App:
 
 `localhost:3000`
 
-## Getting Started With NextJS Boilerplate
+### Getting Started
 
-### Prerequisites
+#### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
 
@@ -160,9 +144,9 @@ This is an example of how to list things you need to use the software and how to
     npm install -g rimraf
     ```
 
-### Usage
+## Usage
 
-#### Scripts
+### Scripts
 
 I've added the following scripts for convenience. Feel free to modify them to your liking.
 
@@ -181,7 +165,7 @@ I've added the following scripts for convenience. Feel free to modify them to yo
 -   `npm run clean`: Removes node_modules and package-lock.json.
 -   `npm run reinstall`: Creates a clean installation.
 
-#### Git Hooks - Husky
+### Git Hooks - Husky
 
 Git Hooks are a really handy tool for automating tasks around git. I've initialized husky and added the following hook:
 
@@ -189,7 +173,13 @@ Git Hooks are a really handy tool for automating tasks around git. I've initiali
 
 Feel free to add more hooks. Read more about [husky](https://typicode.github.io/husky/#/).
 
-### Support me
+## Project Status
+
+### Current
+
+Completely configured boilerplate.
+
+## Support me
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gbraad)
 
@@ -197,7 +187,7 @@ Feel free to add more hooks. Read more about [husky](https://typicode.github.io/
 
 <!-- USAGE EXAMPLES -->
 
-### Deployment
+## Deployment
 
 -   `npm run build` - Builds the app for production. It correctly bundles React in production mode and optimizes the build for the best performance. Your app is ready to be deployed!
 
@@ -205,13 +195,13 @@ Once you have ran `npm run build`, you can run the production build locally with
 
 <!-- ROADMAP -->
 
-### Roadmap
+## Roadmap
 
 See the [open issues](https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
-### Contributing
+## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -223,7 +213,7 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- LICENSE -->
 
-### License
+## License
 
 Distributed under the MIT License. See [LICENSE](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) for more information.
 
@@ -233,7 +223,7 @@ Distributed under the MIT License. See [LICENSE](https://docs.github.com/en/repo
 
 ### Author
 
-<h1>Loretta Krasteva</h1>
+<h1>lefv</h1>
 
 <a href="https://github.com/lucky-lore" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
@@ -257,3 +247,4 @@ Project Link: [nextjs-ts-rtl-jest-prettier-boilerplate](https://github.com/lucky
 Deep appreciation to my greatest assistant:
 
 -   [Stack Overflow](https://stackoverflow.com/)
+-   [Next.JS Docs](https://nextjs.org/docs/api-reference/create-next-app)
