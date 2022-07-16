@@ -223,7 +223,7 @@ Distributed under the MIT License. See [LICENSE](https://docs.github.com/en/repo
 
 ### Author
 
-<h1>Loretta Krasteva</h1>
+<h1>lefv</h1>
 
 <a href="https://github.com/lucky-lore" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
