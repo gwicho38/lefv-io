@@ -41,7 +41,10 @@
       <a href="#dependencies">Dependencies</a>
     </li>
     <li>
-        <a href="#usage-and-scripts">Usage and Scripts</a>
+        <a href="#scripts">Scripts</a>
+    </li>
+    <li>
+        <a href="#hooks">Hooks</a>
     </li>
     <li>
       <a href="#project-status">Project Status</a>
@@ -92,7 +95,7 @@ This is an example of how to list things you need to use the software and how to
     npm install -g rimraf
     ```
 
-## Scriptss
+## Scripts
 
 -   `npm start`: Start production build. Dependent on `npm run build`.
 -   `npm run dev`: Starts dev server, formats code, runs prettier in watch mode.
@@ -109,9 +112,7 @@ This is an example of how to list things you need to use the software and how to
 -   `npm run clean`: Removes node_modules and package-lock.json.
 -   `npm run reinstall`: Creates a clean installation.
 
-### Git Hooks - Husky
-
-Git Hooks are a really handy tool for automating tasks around git. I've initialized husky and added the following hook:
+## Hooks
 
 -   `pre-commit` hook: Checks for eslint errors and fixes them automatically for you when you are commiting. Once it has finished its job, your commit is finished.
 
