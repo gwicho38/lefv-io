@@ -1,11 +1,11 @@
 {
     "author": {
         "name": "lefv",
-        "url": "https://loretta-arineva.dev"
+        "url": "https://lefv.io"
     },
-    "name": "nextjs-ts-rtl-jest-boilerplate",
-    "description": "This is a starter template (boilerplate) project that uses NextJS, Typescript, RTL (React Testing Library), Jest, ESlint, Prettier and Git Hooks (Husky). It is everything that you need to get started and has the most useful react scripts already added",
-    "version": "1.2.1",
+    "name": "lefv-io",
+    "description": "Website created to host ideas and personal projects. Built using NextJS, Typescript, RTL (React Testing Library), Jest, ESlint, Prettier and Git Hooks (Husky).",
+    "version": "0",
     "license": "MIT",
     "keywords": [
         "react",
@@ -87,10 +87,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate"
+        "url": "https://github.com/gwicho38/lefv-io"
     },
     "bugs": {
-        "url": "https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate/issues"
+        "url": "https://github.com/gwicho38/lefv-io/issues"
     },
-    "homepage": "https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate#readme"
+    "homepage": "https://lefv.io/"
 }
