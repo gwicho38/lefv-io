@@ -18,7 +18,6 @@
     <a href="https://github.com/gwicho38" target="_blank">
     <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
     </a>
-    </a>
     <a href="https://www.linkedin.com/in/luis-fernandez-de-la-vara/" target="_blank">
     <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
     </a>
@@ -47,14 +46,16 @@
         <a href="#hooks">Hooks</a>
     </li>
     <li>
-      <a href="#project-status">Project Status</a>
+        <a href="#roadmap">Roadmap</a>
+    </li>
+    <li>
+        <a href="#contributing">Contributing</a>
+    </li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#References">References</a></li>
   </ol>
 </details>
-
-<!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
@@ -114,29 +115,9 @@ This is an example of how to list things you need to use the software and how to
 
 ## Hooks
 
--   `pre-commit` hook: Checks for eslint errors and fixes them automatically for you when you are commiting. Once it has finished its job, your commit is finished.
+### [husky](https://typicode.github.io/husky/#/)
 
-Feel free to add more hooks. Read more about [husky](https://typicode.github.io/husky/#/).
-
-## Project Status
-
-### Current
-
-Completely configured boilerplate.
-
-## Support me
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gbraad)
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/LoretaKrasteva?locale.x=en_GB)
-
-<!-- USAGE EXAMPLES -->
-
-## Deployment
-
--   `npm run build` - Builds the app for production. It correctly bundles React in production mode and optimizes the build for the best performance. Your app is ready to be deployed!
-
-Once you have ran `npm run build`, you can run the production build locally with `npm start`.
+-   `pre-commit hook`: Must be set to executable prior to running (`chmod +x ~/.husky/pre-commit`). Checks for eslint errors and fixes them automatically for you when you are commiting.
 
 <!-- ROADMAP -->
 
@@ -148,13 +129,21 @@ See the [open issues](https://github.com/gwicho38/lefv-io/issues) for a list of 
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Any contributions you make are **greatly appreciated**.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+1. Fork
+2. Feature Branch (`git checkout -b {category}/{issue-number}/{description-in-kebab-case}`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+### Conventions
+
+#### Branch Naming
+
+-   category: `feature, bugfix, hotfix, test`
+-   issue-number: `number assigned automatically after filing issue` see also [sample issue](https://github.com/gwicho38/lefv-io/issues/2)
+-   description-in-kebab-case: `update-readme`
 
 <!-- LICENSE -->
 
@@ -162,28 +151,21 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the MIT License. See [LICENSE](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) for more information.
 
-<!-- CONTACT -->
-
 ## Contact
-
-### Author
 
 <h1>lefv</h1>
 
-<a href="https://github.com/lucky-lore" target="_blank">
+<a href="https://github.com/gwicho38/lefv-io" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
-<a href="https://www.npmjs.com/~lucky-lore" target="_blank">
-<img src=https://img.shields.io/badge/npm-%2324292e.svg?&style=for-the-badge&logo=npm&logoColor=red alt=npm style="margin-bottom: 5px;" />
-</a>
-<a href="https://linkedin.com/in/loretta-krasteva" target="_blank">
+<a href="https://www.linkedin.com/in/luis-fernandez-de-la-vara/" target="_blank">
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
 </a>
-<a href="https://twitter.com/_luckylore" target="_blank">
+<a href="https://twitter.com/gwicho38" target="_blank">
 <img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
 </a>
 
-Project Link: [nextjs-ts-rtl-jest-prettier-boilerplate](https://github.com/gwicho38/lefv-io)
+Project Link: [lefv-io](https://github.com/gwicho38/lefv-io)
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -202,3 +184,5 @@ Project Link: [nextjs-ts-rtl-jest-prettier-boilerplate](https://github.com/gwich
 -   [favicon](https://favicon.io/favicon-generator/)
 -   [shields](https://shields.io/)
 -   [next-js-ts-trl-boilerplate](https://github.com/lucky-lore/nextjs-ts-rtl-jest-prettier-boilerplate)
+-   [conventional-commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)
+-   [commit-naming-convention](https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4)
